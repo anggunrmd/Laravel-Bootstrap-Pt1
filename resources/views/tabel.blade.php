@@ -27,7 +27,7 @@
             </tr>
             <tr>
             <th scope="row">2</th>
-            <td>Rafly</td>
+            <td>Rafli</td>
             <td>3331220037</td>
             <td>Teknik Mesin</td>
             </tr>

@@ -28,3 +28,13 @@ Route::get('/form', function () {
 Route::get('/tabel', function () {
     return view('tabel');
 });
+Route::get('/form_tabel', function () {
+    return view('form_tabel');
+});
+
+use App\Http\Controllers\MahasiswaController;
+
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
+Route::post('/mahasiswa', [MahasiswaController::class, 'store']);
+
+
